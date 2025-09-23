@@ -3,7 +3,6 @@ import random
 
 import torch
 import torch.nn.functional as F
-from numpy.core.fromnumeric import argmax
 
 
 def train_model(model, device, train_loader, optimizer, epoch):
@@ -67,3 +66,4 @@ def test_model_file(model, device, test_loader, f):
 
 if __name__ == '__main__':
     pass
+
