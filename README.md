@@ -21,7 +21,7 @@ Our code is tested under the following environment: Python 3.9, torch 2.5.1, tor
 
 ## Quick Start
 
-1. Load dataset and watermark data:  
+1. Generate dataset and watermark data:  
     e.g. `CIFAR10` on `ResNet18` 
     ```python3
     python load_data.py
